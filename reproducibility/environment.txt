@@ -1,0 +1,9 @@
+Python 3.10.14
+pip 26.0.1 from /home/dcll/anaconda3/envs/flwr_env/lib/python3.10/site-packages/pip (python 3.10)
+Linux localhost 5.4.0-189-generic #209-Ubuntu SMP Fri Jun 7 14:05:13 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
+
+R:
+Rscript (R) version 4.4.1 (2024-06-14)
+
+MendelianRandomization:
+0.10.0 

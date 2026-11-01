@@ -1,0 +1,95 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+
+venv/
+env/
+ENV/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Testing and coverage
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDEs and OS files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs and local databases
+*.log
+*.sqlite3
+*.db
+
+# Large genomic reference files
+*.vcf
+*.vcf.gz
+*.tbi
+*.bcf
+*.bam
+*.bai
+*.cram
+
+# Private individual-level data
+FedIV_private_archive/
+real_individual_data/
+
+# Generated data and results
+data/
+results/
+
+
+# Genomic reference files
+*.vcf
+*.vcf.gz
+*.tbi
+*.bcf
+*.bam
+*.bai
+*.cram
+
+# Private data
+FedIV_private_archive/
+real_individual_data/
+
+# Generated data and results
+data/
+results/
