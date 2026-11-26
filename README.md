@@ -1,6 +1,6 @@
-# FedIV
+# FedMR
 
-FedIV is a methods-oriented federated Mendelian randomization (MR) research implementation for estimating exposure–genetic-variant associations across distributed individual-level cohorts without centralizing raw records, followed by downstream MR using public outcome summary statistics.
+FedMR is a methods-oriented federated Mendelian randomization (MR) research implementation for estimating exposure–genetic-variant associations across distributed individual-level cohorts without centralizing raw records, followed by downstream MR using public outcome summary statistics.
 
 The project has two main methodological components:
 
@@ -26,7 +26,7 @@ Historical method-development branches are not part of the publication-facing ex
 
 ## Scientific scope
 
-FedIV is a computational/methodological MR project. It should not be interpreted as introducing federated regression, Huber regression, Gaussian output perturbation, or secure aggregation individually.
+FedMR is a computational/methodological MR project. It should not be interpreted as introducing federated regression, Huber regression, Gaussian output perturbation, or secure aggregation individually.
 
 The intended contribution is the MR-specific integration of:
 
@@ -263,7 +263,7 @@ MAGE provenance is stored under:
 data/mage/provenance/
 ```
 
-The upstream MAGE repository retained inside the provenance directory is preserved as upstream provenance material and is not treated as FedIV-owned source code.
+The upstream MAGE repository retained inside the provenance directory is preserved as upstream provenance material and is not treated as FedMR-owned source code.
 
 Before public Git release, each large or human-genomic data asset should be reviewed for:
 
@@ -292,7 +292,7 @@ The final manuscript checksum/manifest inventory should be regenerated only afte
 
 Historical exploratory privacy estimators and other superseded development branches have been moved out of the publication-facing project into a private archive.
 
-The historical LDL → Alzheimer’s disease summary-data analysis is intentionally excluded from the final FedIV manuscript and publication-facing repository because it is not part of the final federated/private MR story.
+The historical LDL → Alzheimer’s disease summary-data analysis is intentionally excluded from the final FedMR manuscript and publication-facing repository because it is not part of the final federated/private MR story.
 
 ## Citation
 
